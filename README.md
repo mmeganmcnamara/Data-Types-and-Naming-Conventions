@@ -16,7 +16,10 @@ The official Scala website: https://www.scala-lang.org/
 ## Getting Started:
 Install on Mac:
 1. open the Terminal 
-2. Run brew install coursier/formulas/coursier && cs setup Coursier is a tool for the Scala installer, which makes sure the standard Scala tools are installed.
+2. Run '''
+brew install coursier/formulas/coursier && cs setup Coursier 
+'''
+is a tool for the Scala installer, which makes sure the standard Scala tools are installed.
 Java 8 or Java 11 and sbt are the tools needed to compile, run, test and package a Scala project.
 
 To write comments in Scala, use // (ex: //This is a comment)
