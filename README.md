@@ -1,2 +1,5 @@
-This is the Programming Learning Project (PLP) for Simmons University CS 330. 
-This is a walk through of Scala.
+# Learn Scala!
+This is a walkthru of the Scala programming langauge starting with how to download and create your first Hello World program.
+
+
+
