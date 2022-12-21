@@ -29,17 +29,31 @@ Just like Java, C and C++, Scala is staticly typed. This means the compiler dete
 
 It is a case senstive language - if a variable is named "Hello" and you try using "hello" it would be two different variables.
 
-### Class Names
+### File Name
+The Program File Name should exactly match the object name. Save the file as the exact object name and .scala (Remember Scala is case-sensitive). If the object name and file name do not match the program will not compile. 
+```
+HelloWorld.scala
+```
+
+### Class
+A class is the template/blueprint that describes the behaviors and states that are related to the class. 
+
 Class names should be start with an Upper case letter; if there are several words in the class name, each first letter should be capitalized. 
 ```
 class FirstScalaClass
 ```
 
-### Methods and Naming
+### Methods
+You can think of a method as a behavior. Inside a method, all actions are executed, data is manipulated and logics are written. There can be many methods in a class. The method body is enclosed between braces { }.
 All method names shuld start with a lower case letter. If multiple words are used in the method name, then the inner word's first letter should be Upper Case.
 ```
 def myMethodName()
 ```
+Scala starts processing from the main method. 
+``` def main(args: Array[String]) ````
+
+
+
 
 
 
