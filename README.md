@@ -24,3 +24,7 @@ Java 8 or Java 11 and sbt are the tools needed to compile, run, test and package
 
 To write comments in Scala, use // (ex: //This is a comment)
 
+## Data Types
+Just like Java, C and C++, Scala is staticly typed. This means the compiler determines the type of variable at compile time. If there are errors, it will fail to compile till the errors have been fixed. 
+
+
