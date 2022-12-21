@@ -24,7 +24,23 @@ Java 8 or Java 11 and sbt are the tools needed to compile, run, test and package
 
 To write comments in Scala, use // (ex: //This is a comment)
 
-## Data Types
+## Data Types and Naming
 Just like Java, C and C++, Scala is staticly typed. This means the compiler determines the type of variable at compile time. If there are errors, it will fail to compile till the errors have been fixed. 
+
+It is a case senstive language - if a variable is named "Hello" and you try using "hello" it would be two different variables.
+
+### Class Names
+Class names should be start with an Upper case letter; if there are several words in the class name, each first letter should be capitalized. 
+```
+class FirstScalaClass
+```
+
+### Methods and Naming
+All method names shuld start with a lower case letter. If multiple words are used in the method name, then the inner word's first letter should be Upper Case.
+```
+def myMethodName()
+```
+
+
 
 
