@@ -50,8 +50,10 @@ All method names shuld start with a lower case letter. If multiple words are use
 def myMethodName()
 ```
 Scala starts processing from the main method. 
-``` def main(args: Array[String]) ````
-
+``` 
+def main(args: Array[String]) 
+```
+The keyword "def" is used to declare a function in Scala. 
 
 
 
