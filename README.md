@@ -69,12 +69,12 @@ Scala has two types of variables:
 
 1. Mutable Variable - variables whos value is able to be changed after the declaration of a variable. It is defined by the "var" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. 
 ```
-var Variable_name: Data_type = "value";
+var name: String = "value";
 ```
 
 2. Immutable Variables - variables whos value is NOT changable after declaration of a variable. It is defined by the "val" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. 
 ```
-val Variable_name: Data_type = "value";
+val name: String = "value";
 ```
 
 
