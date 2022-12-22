@@ -58,5 +58,27 @@ The keyword "def" is used to declare a function in Scala.
 
 
 
+## Variables
+You can think of variables as storage locations. Every variable is known by its name and stores known and unknown information known as a value. A variable is defined by its data type and name. The data type is responsible for allocating memory for said variable. 
+* Variable name can contain letter, digit, underscore ( _ ) and $
+* White space is not allowed in the variable name
+* Starting character of variable name must be a letter
+* Variable name should be lower case
+
+Scala has two types of variables:
+
+1. Mutable Variable - variables whos value is able to be changed after the declaration of a variable. It is defined by the "var" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. 
+```
+var Variable_name: Data_type = "value";
+```
+
+2. Immutable Variables - variables whos value is NOT changable after declaration of a variable. It is defined by the "val" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. 
+```
+val Variable_name: Data_type = "value";
+```
+
+
+
+
 
 
