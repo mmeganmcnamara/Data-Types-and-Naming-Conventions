@@ -25,12 +25,14 @@ Java 8 or Java 11 and sbt are the tools needed to compile, run, test and package
 To write comments in Scala, use // (ex: //This is a comment)
 
 ## Data Types and Naming
-Just like Java, C and C++, Scala is staticly typed. This means the compiler determines the type of variable at compile time. If there are errors, it will fail to compile till the errors have been fixed. 
+Just like Java, C and C++, Scala is **staticly typed**. This means the compiler determines the type of variable at compile time. If there are errors, it will fail to compile till the errors have been fixed. 
 
 It is a case senstive language - if a variable is named "Hello" and you try using "hello" it would be two different variables.
 
+
+
 ### File Name
-The Program File Name should exactly match the object name. Save the file as the exact object name and .scala (Remember Scala is case-sensitive). If the object name and file name do not match the program will not compile. 
+The Program File Name should exactly match the object name. Save the file as the exact object name and .scala (Remember Scala is case-sensitive). If the object name and file name do not match the program will not compile. Imagine the object name is HelloWorld. Therefore the file name will be: 
 ```
 HelloWorld.scala
 ```
@@ -54,7 +56,7 @@ Scala starts processing from the main method.
 def main(args: Array[String]) 
 ```
 ### Functions
-The keyword "def" is used to declare a function in Scala. Function names should follow lower camel case, but can have special characters like +,~,&,-,++,\,/, etc. The return type of parameters must be specificed when defining the function. Return type of a function is optional; if you don't specificy the return type, the default is Unit (equivalent to void in Java). [^3]
+The keyword "def" is used to declare a function in Scala. Function names should follow lower camel case, but can have special characters like +,~,&,-,++,\,/, etc. The return type of parameters must be specificed when defining the function. Return type of a function is optional; if you don't specificy the return type, the default is Unit (equivalent to void in Java).
 ```
 def function_name ([parameter_list]) : [return_type] = {
 
@@ -64,7 +66,7 @@ def function_name ([parameter_list]) : [return_type] = {
 ```
 If the equal sign and body is not used, then implicitly method is declared abstract. 
 ![image](https://user-images.githubusercontent.com/113136952/209726077-add0c5b7-c843-475e-b645-3180547874ef.png)
-
+[^3]
 
 
 
@@ -82,10 +84,19 @@ Scala has two types of variables:
 var name: String = "value";
 ```
 
-2. Immutable Variables - variables whos value is NOT changable after declaration of a variable. It is defined by the "val" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. [^2]
+2. Immutable Variables - variables whos value is NOT changable after declaration of a variable. It is defined by the "val" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. "Val" is similar to "final" in Java. [^2]
 ```
 val name: String = "value";
 ```
+
+### If and If-else Statements
+"If" statement consists of a Boolean expression followed by one or more statements. If the Boolean expressions evaluates to true then the code inside the "if" will be executed. If not, the set of code after the closing curly brace will be executed. 
+![image](https://user-images.githubusercontent.com/113136952/209727349-4d5f157f-bf23-4aa4-b7fe-60193e93cee0.png) [^4]
+
+Here i
+
+
+
 
 
 
@@ -93,7 +104,8 @@ val name: String = "value";
 [^1]: https://docs.scala-lang.org/getting-started/index.html
 [^2]: https://www.geeksforgeeks.org/variables-in-scala/
 [^3]: https://medium.com/analytics-vidhya/scala-basics-ace1dccd72f8#:~:text=Case%20Sensitivity%20%E2%88%92%20Scala%20is%20case,have%20different%20meaning%20in%20Scala.
-[^4]: 
+[^4]: https://www.tutorialspoint.com/scala/scala_if_else.htm
+
 
 
 
