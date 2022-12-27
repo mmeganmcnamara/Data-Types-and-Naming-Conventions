@@ -7,7 +7,7 @@ Scala can be installed on Windows, MacOS, and Linux. It can be run on VS Code (w
 
 ## What is Scala?
 
-Created in 2001, Scala was made to address the many criticisms of Java. It was made to show it's possible to combine functional and object-orientated programming. The name “Scala” is made from the words “scalable” and “language”, showing that it is designed to grow with the users. Scala is used for web development, data processing and distributed computing.
+Created in 2001, Scala was made to address the many criticisms of Java. It was made to show it's possible to combine functional and object-orientated programming. The name “Scala” is made from the words “scalable” and “language”, showing that it is designed to grow with the users. Scala is used for web development, data processing and distributed computing. [^1]
 
 
 The official Scala website: https://www.scala-lang.org/
@@ -53,7 +53,17 @@ Scala starts processing from the main method.
 ``` 
 def main(args: Array[String]) 
 ```
-The keyword "def" is used to declare a function in Scala. 
+### Functions
+The keyword "def" is used to declare a function in Scala. Function names should follow lower camel case, but can have special characters like +,~,&,-,++,\,/, etc. The return type of parameters must be specificed when defining the function. Return type of a function is optional; if you don't specificy the return type, the default is Unit (equivalent to void in Java). [^3]
+```
+def function_name ([parameter_list]) : [return_type] = {
+
+// function body
+
+}
+```
+If the equal sign and body is not used, then implicitly method is declared abstract. 
+![image](https://user-images.githubusercontent.com/113136952/209726077-add0c5b7-c843-475e-b645-3180547874ef.png)
 
 
 
@@ -72,13 +82,18 @@ Scala has two types of variables:
 var name: String = "value";
 ```
 
-2. Immutable Variables - variables whos value is NOT changable after declaration of a variable. It is defined by the "val" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. 
+2. Immutable Variables - variables whos value is NOT changable after declaration of a variable. It is defined by the "val" keyword. The first letter of a data type needs to be a capital letter, since Scala treats data types as objects. [^2]
 ```
 val name: String = "value";
 ```
 
 
 
+
+[^1]: https://docs.scala-lang.org/getting-started/index.html
+[^2]: https://www.geeksforgeeks.org/variables-in-scala/
+[^3]: https://medium.com/analytics-vidhya/scala-basics-ace1dccd72f8#:~:text=Case%20Sensitivity%20%E2%88%92%20Scala%20is%20case,have%20different%20meaning%20in%20Scala.
+[^4]: 
 
 
 
