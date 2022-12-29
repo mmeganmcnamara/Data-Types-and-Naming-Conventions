@@ -68,6 +68,33 @@ If the equal sign and body is not used, then implicitly method is declared abstr
 ![image](https://user-images.githubusercontent.com/113136952/209726077-add0c5b7-c843-475e-b645-3180547874ef.png)
 [^3]
 
+```
+// Scala program to illustrate Datatypes
+object Test
+{
+def main(args: Array[String]) 
+{
+    var a: Boolean = true
+    var a1: Byte = 126
+    var a2: Float = 2.45673f
+    var a3: Int = 3
+    var a4: Short = 45
+    var a5: Double = 2.93846523
+    var a6: Char = 'A'
+    if (a == true) 
+    {
+    println("boolean:geeksforgeeks")
+    }
+    println("byte:" + a1)
+    println("float:" + a2)
+    println("integer:" + a3)
+    println("short:" + a4)
+    println("double:" + a5)
+    println("char:" + a6)
+}
+}
+``` [^https://www.geeksforgeeks.org/data-types-in-scala/?ref=lbp]
+
 
 
 ## Variables
