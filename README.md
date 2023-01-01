@@ -143,7 +143,14 @@ var name: String = "value";
 val name: String = "value";
 ```
 
-### If and If-else Statements
+### Conditional Statements
+Scala has 4 conditional statements. 
+- If
+- If-else
+- Nested If-else
+- If-else Ladder 
+
+
 "If" statement consists of a Boolean expression followed by one or more statements. If the Boolean expressions evaluates to true then the code inside the "if" will be executed. If not, the set of code after the closing curly brace will be executed. 
 ![image](https://user-images.githubusercontent.com/113136952/209727349-4d5f157f-bf23-4aa4-b7fe-60193e93cee0.png) [^4]
 
@@ -162,13 +169,99 @@ If-else is very similar to an if statement, however if the boolean statement is 
 var x = 30;
 
       if( x < 20 ){
-         println("This is if statement");
+         println("This is an if statement");
       } else {
-         println("This is else statement");
+         println("This is an else statement");
       }
  ```
+Output: 
+```
+This is an else statement
+```
 
+Nested if-else statements are for when you want an if-else statement inside of another if-else statement. [^7]
+```
+ // taking three variables
+    var a: Int = 70
+    var b: Int = 40
+    var c: Int = 100
+  
+    // condition_1
+    if (a > b) 
+    {
+        // condition_2
+        if(a > c)
+        {
+            println("a is largest");
+        }
+        else
+        {
+            println("c is largest")
+        }
+      
+    }
+      
+    else
+    {
+          
+         // condition_3
+        if(b > c)
+        {
+            println("b is largest")
+        }
+        else
+        {
+            println("c is largest")
+        }
+    }
+``` 
+Output: 
+``` 
+c is largest
+```
 
+If-else ladder is used when the user wants to deciede from multiple options. The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that if is executed, and the rest of the ladder is bypassed. If none of the conditions is true, then the final else statement will be executed. [^7]
+```
+// Taking a variable
+    var value: Int = 50
+  
+    if (value == 20) 
+    {
+  
+        // print "value is 20" when 
+        // above condition is true
+        println("Value is 20")
+    } 
+      
+    else if (value == 25) 
+    {
+  
+        // print "value is 25" when 
+        // above condition is true
+        println("Value is 25")
+    } 
+      
+    else if (value == 40)
+    {
+      
+        // print "value is 40" when 
+        // above condition is true
+        println("Value is 40")
+  
+    } 
+      
+    else 
+    {
+          
+        // print "No Match Found" 
+        // when all condition is false
+        println("No Match Found")
+    }
+```
+Output:
+```
+No Match Found
+```
 
 
 
@@ -179,7 +272,7 @@ var x = 30;
 [^4]: https://www.tutorialspoint.com/scala/scala_if_else.htm
 [^5]: https://www.geeksforgeeks.org/data-types-in-scala/?ref=lbp
 [^6]: https://www.tutorialspoint.com/scala/scala_arrays.htm
-
+[^7]: https://www.geeksforgeeks.org/scala-decision-making-if-if-else-nested-if-else-if-else-if/
 
 
 
