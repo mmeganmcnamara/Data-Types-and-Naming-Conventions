@@ -143,8 +143,8 @@ var name: String = "value";
 val name: String = "value";
 ```
 
-### Conditional Statements
-Scala has 4 conditional statements. 
+### Conditional Statements and Booleans
+Scala has 4 conditional statements. The boolean values are stored as ```true``` and ```false```.
 - If
 - If-else
 - Nested If-else
@@ -264,7 +264,7 @@ No Match Found
 ```
 ### Short Circuit
 Short circuiting is when the program stops further evaluation of booleans as soon as the result is known. [^8]
-Logical operators, such as && and ||, are short-circuit operators.
+Logical operators, such as && and ||, are short-circuit operators. If a evaluates to true, true is returned without evaluating b
 
 
 
