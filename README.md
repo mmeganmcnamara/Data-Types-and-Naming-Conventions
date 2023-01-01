@@ -122,6 +122,24 @@ var z = new Array[String](3)
 ```
 In this, z is declared as an array of Strings that has a maximum of 3 elements. You can 
 
+###  Operators 
+In Scala, **all operators are methods**. Ex: Adding two numbers using '+', the '+' method is actually being invoked. 
+Scala has the same basic operators as Java, differing slightly in how they work. 
+* Additon ```+```
+* Subtraction ```-```
+* Multiplication ```*```
+* Division ```/```
+* Remainder ```%```
+
+Relational Operators:
+* Greater than ```>```
+* Less than ```<```
+* Greater than or equal to ```>=```
+* Less than or equal to ```<=```
+
+Logical Operators:
+* And ```&&```
+* Or ```||```
 
 
 ## Variables
@@ -145,10 +163,10 @@ val name: String = "value";
 
 ### Conditional Statements and Booleans
 Scala has 4 conditional statements. The boolean values are stored as ```true``` and ```false```.
-- If
-- If-else
-- Nested If-else
-- If-else Ladder 
+* If
+* If-else
+* Nested If-else
+* If-else Ladder 
 
 
 "If" statement consists of a Boolean expression followed by one or more statements. If the Boolean expressions evaluates to true then the code inside the "if" will be executed. If not, the set of code after the closing curly brace will be executed. 
