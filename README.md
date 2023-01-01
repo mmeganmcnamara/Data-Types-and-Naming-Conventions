@@ -147,8 +147,26 @@ val name: String = "value";
 "If" statement consists of a Boolean expression followed by one or more statements. If the Boolean expressions evaluates to true then the code inside the "if" will be executed. If not, the set of code after the closing curly brace will be executed. 
 ![image](https://user-images.githubusercontent.com/113136952/209727349-4d5f157f-bf23-4aa4-b7fe-60193e93cee0.png) [^4]
 
-Here i
+Here is an example of a simple if statement:
+```
+var x = 10;
 
+      if( x < 20 ){
+         println("This is an if statement");
+      }
+```
+It will output "This is an if statement" because the statement was true. 
+
+If-else is very similar to an if statement, however if the boolean statement is false, it will execute the else statement. Think of it as "if this is true do this, else do this".
+```
+var x = 30;
+
+      if( x < 20 ){
+         println("This is if statement");
+      } else {
+         println("This is else statement");
+      }
+ ```
 
 
 
