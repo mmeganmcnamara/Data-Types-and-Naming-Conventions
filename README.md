@@ -139,7 +139,8 @@ Relational Operators:
 
 Logical Operators:
 * And ```&&```
-* Or ```||```
+* Or ```||``` 
+Check out the short-circuiting sectuion to see more information regarding logical operators. [^14]
 
 
 ## Variables
@@ -294,6 +295,7 @@ Logical operators, such as && and ||, are short-circuit operators. If a evaluate
 [^6]: https://www.tutorialspoint.com/scala/scala_arrays.htm
 [^7]: https://www.geeksforgeeks.org/scala-decision-making-if-if-else-nested-if-else-if-else-if/
 [^8]: https://rosettacode.org/wiki/Short-circuit_evaluation#Scala
+[^9]: https://www.baeldung.com/scala/operators-intro#:~:text=Scala%20has%20following%20arithmetic%20binary%20operators%20available%20for,Multiplication%20%28%2A%29%204%20Division%20%28%2F%29%205%20Remainder%20%28%25%29
 
 
 
