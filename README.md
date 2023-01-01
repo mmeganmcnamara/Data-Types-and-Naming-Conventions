@@ -68,6 +68,7 @@ If the equal sign and body is not used, then implicitly method is declared abstr
 ![image](https://user-images.githubusercontent.com/113136952/209726077-add0c5b7-c843-475e-b645-3180547874ef.png)
 [^3]
 
+Below is a simple program to show the data types, copied from Geeks for Geeks. [^5]
 ```
 // Scala program to illustrate Datatypes
 object Test
@@ -93,7 +94,33 @@ def main(args: Array[String])
     println("char:" + a6)
 }
 }
-``` [^https://www.geeksforgeeks.org/data-types-in-scala/?ref=lbp]
+``` 
+Ouput: 
+```
+boolean:geeksforgeeks
+byte:126
+float:2.45673
+integer:3
+short:45
+double:2.93846523
+char:A
+```
+
+### Arrays
+Arrays are a data structure with a fixed-size collection of elements of the same data type. Instead of declaring items as thing0, thing1, etc., an array allows you to make one variable and store all of the items inside said variable using thing[0], thing[1], etc. The index(number)  of the first element(thing) of an array is 0. The total number of elements is the index minus one, since you start counting at zero. 
+To create an array you must:
+1. declare a variable to reference the array
+2. specify the type of array the variable can reference
+
+The Syntax of an array: 
+```
+var z:Array[String] = new Array[String](3)
+
+or
+
+var z = new Array[String](3)
+```
+In this, z is declared as an array of Strings that has a maximum of 3 elements. You can 
 
 
 
@@ -132,6 +159,8 @@ Here i
 [^2]: https://www.geeksforgeeks.org/variables-in-scala/
 [^3]: https://medium.com/analytics-vidhya/scala-basics-ace1dccd72f8#:~:text=Case%20Sensitivity%20%E2%88%92%20Scala%20is%20case,have%20different%20meaning%20in%20Scala.
 [^4]: https://www.tutorialspoint.com/scala/scala_if_else.htm
+[^5]: https://www.geeksforgeeks.org/data-types-in-scala/?ref=lbp
+[^6]: https://www.tutorialspoint.com/scala/scala_arrays.htm
 
 
 
