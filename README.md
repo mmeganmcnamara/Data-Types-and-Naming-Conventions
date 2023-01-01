@@ -262,7 +262,9 @@ Output:
 ```
 No Match Found
 ```
-
+### Short Circuit
+Short circuiting is when the program stops further evaluation of booleans as soon as the result is known. [^8]
+Logical operators, such as && and ||, are short-circuit operators.
 
 
 
@@ -273,6 +275,8 @@ No Match Found
 [^5]: https://www.geeksforgeeks.org/data-types-in-scala/?ref=lbp
 [^6]: https://www.tutorialspoint.com/scala/scala_arrays.htm
 [^7]: https://www.geeksforgeeks.org/scala-decision-making-if-if-else-nested-if-else-if-else-if/
+[^8]: https://rosettacode.org/wiki/Short-circuit_evaluation#Scala
+
 
 
 
